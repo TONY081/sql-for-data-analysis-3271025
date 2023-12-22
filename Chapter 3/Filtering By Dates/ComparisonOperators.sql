@@ -1,5 +1,5 @@
-SELECT OrderID,
-  CreationDate
-FROM Orders
-WHERE Month(CreationDate) = 5
-  AND Year(CreationDate) = '2016'
+SELECT OrderID, CreationDate
+  From Orders
+where MONTH(CreationDate)='05'
+ AND YEAR(CreationDate)='2016'
+ LIMIT 10
