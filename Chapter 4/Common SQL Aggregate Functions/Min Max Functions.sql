@@ -6,4 +6,5 @@ SELECT State,
 FROM Customer C
   JOIN Orders O ON O.CustomerID = C.CustomerID
 GROUP BY State
-ORDER BY Avg_Due DESC
+ORDER BY Avg_Due 
+LIMIT 10
